@@ -1,0 +1,177 @@
+"text","file_name","chunk_type","base64_string","title","parent_title","chunk_id","page_start","page_end","artifact_name","row_id","deleted_at"
+"VCU Experience Kit
+Vehicle Control Unit - VCU is the next exciting product line in PS-EC fulfilling the need of wide variety of customers starting from startups to big players. Many EV startups prefer to go for SW sharing with Bosch base software and HW. In order to engage our customers, VCU Experience Kit is designed as a portable, handheld unit for the users to have hands on experience with VCU and learn about SW sharing and HW features. The kit contains physical sensors, virtual sensors, actuators, motors and most importantly local software build through MDG Shared Build.","eBob_GenAi_chat","text",NULL,"VCU Experience Kit",NULL,"67cb0a54-1e0c-42f5-b9eb-560a6009b0d1","1","1","eBob_GenAi_chat.pdf","ea85225f-a58f-4271-9dda-a64d48cdff5e","None"
+"Key features:
+· User friendly platform to familiarize with Bosch VCUs, base software, and local software build
+
+· Low Cost experimental platform provided on a rental basis including remote support
+
+· Flexible and fast Time-To-Market concepts with hands on experience of IO validation with APIs
+
+· Physical and Virtual sensors enable simulation of wide range of sensor characteristics
+
+· Affordable entry into the powertrain controls domain for new startups and mobility providers
+
+· Experience kit to drive excitement and interest within the West Coast and startup scene to engage Bosch in further business opportunities
+
+· Portable, Handheld kit to demonstrate VCU with relevant Sensor / Actuator interface
+
+· Accelerator pedal, Brake, Temperature sensor and Gear level are implemented with physical sensors
+
+· Output actuator are realized with Downsized Motor inverter, Coolant Radiator Fan and Drive Motor
+
+· Integrated PC
+
+· Inbuilt CANalyzer, PC oscilloscope to reduce the external tools and software dependency
+
+· Excellent offering for Model-5 software sharing platform
+
+· Hands-on experience to showcase the VCU capabilities
+
+Software Sharing in automotive domain has developed tremendously over the last decades. An increasing number of OEM's request more flexible and wide range of SW-Sharing Cooperation Models in order to cover additional use cases especially with new ECU generation and new products like VCU. The VCU Experience Kit provides Model-5 Software Sharing experimentation platform to OEMs, Start up's and SW Sharing beginners. (BSW by Bosch and ASW by OE)
+
+
+eBoB:
+
+Any testing environment (HiL, Testbench, Vehicle etc.) with a traditional break-out box, requires manual intervention for injection of faults and making sure the right signals are manipulated. This restricts automation over remote access and increases possibility of human error. On a running testbench plugging and unplugging the connections could also involve shutting it off, which is time consuming and tedious. Also, during vehicle testing, online fault injection is not possible without added support. The tester would require simultaneous access to break out box and to their PC/laptop for responsive feedback. What if we can solve all this?","eBob_GenAi_chat","text",NULL,"Key features:",NULL,"69ea4e15-7620-451f-8818-0f78440faa43","1","2","eBob_GenAi_chat.pdf","34a7fc41-388f-464f-b70d-ce1229bd830e","None"
+"Working of conventional Breakout Box:
+eBoB is an automotive grade fault injection device with 20 I/O Channels and 7 executable signal manipulations, which can be easily setup with environments consisting of traditional Break-out- Box (BoB). It enables the tester to increase automation over remote access, gain more insights on the moment of fault injection, capture accurate reaction times(which was unknown in manual fault injection scenarios) and also blend with setups where connectivity over cloud is required.","eBob_GenAi_chat","text",NULL,"Working of conventional Breakout Box:",NULL,"ce8e3c26-eacb-414a-85b6-94c9fe8353fe","2","2","eBob_GenAi_chat.pdf","4d1db997-768f-4762-8c95-484ad18a1100","None"
+"Placement of eBoB in existing environment:
+We are improving with each sample like stronger encasing, responsive feedback via buzzer and LCD, current sensing channels, minimal resistance, sturdier connectors, vehicle mounting features and many hardware, software improvements moulding towards tester assisting views.
+
+eBoB can be integrated with existing environment in INCA and allows scripting from ECU test and INCA flow
+
+eBoB can be easily integrated to the existing test environment through the traditional BoB and digitally control the fault injections for device under test. It is controlled over CAN protocol, allowing user to control via INCA, and automate the same via software tool chains like ECU Test tool and INCA Flow. 00-0.30secs
+
+Below are the tests supported through eBOB.
+
+1) Signal connect : Connects the channel selected between system and test device
+
+2) Signal disconnect : Disconnects the channel selected between system and test device
+
+3) Signal resistor inclusion inline : Includes resistance between the system and test device, in the selected channel
+
+4) Signal resistor inclusion inline : Includes resistance between signals to the system and test device
+
+5) Signal short to battery : The channel is short to battery, while it is also connected between system and test device
+
+
+6) Signal short to ground : The channel is short to ground, while it is also connected between system and test device
+
+7) Signal Intershort : Inter-Shorting of selected channels
+
+While testing with conventional break out box to measure latency we need to use additonal equipment and monitor by clipping the wire between the battery and test device
+
+In eBoB there is a current sensing circuit which detects the passing current along with the latency without any additional equipment proving with precise information which can be stimulated in INCA for the tester
+
+ECU test:
+
+ECU-TEST is a test automation tool used for specification, implementation, execution, and documentation of test cases.
+
+Software Sharing in automotive domain has developed tremendously over the last decades. An increasing number of OEM's request more flexible and wide range of SW-Sharing Cooperation Models in order to cover additional use cases especially with new ECU generation and new products like VCU. The VCU Experience Kit provides Model-5 Software Sharing experimentation platform to OEMs, Start up's and SW Sharing beginners. (BSW by Bosch and ASW by OE)
+
+System test:","eBob_GenAi_chat","text",NULL,"Placement of eBoB in existing environment:",NULL,"235ff169-5834-4e42-86b1-cd26d2e5ff85","2","3","eBob_GenAi_chat.pdf","eab5254d-6324-47da-b42f-f50ae513c829","None"
+"Placement of eBoB in existing environment:
+Software Sharing in automotive domain has developed tremendously over the last decades. An increasing number of OEM's request more flexible and wide range of SW-Sharing Cooperation Models in order to cover additional use cases especially with new ECU generation and new products like VCU. The VCU Experience Kit provides Model-5 Software Sharing experimentation platform to OEMs, Start up's and SW Sharing beginners. (BSW by Bosch and ASW by OE)
+
+System test:
+
+System test in the automotive domain is a critical phase in the development process that involves testing the entire vehicle or a specific system as a complete unit to ensure it meets all functional and non-functional requirements. It's the final checkpoint before a product is released to the market.","eBob_GenAi_chat","text",NULL,"Placement of eBoB in existing environment:",NULL,"3886fd99-ad54-4599-b65b-9187c2bb8891","2","2","eBob_GenAi_chat.pdf","a0524fbc-e468-4c18-80e8-1e1e5b8016b0","None"
+"Key Objectives of System Testing in Automotive:
+· Functional Verification: Ensuring all system components work together as intended and meet specified functionalities.
+
+· Performance Evaluation: Assessing system performance under various conditions (load, temperature, etc.) to meet performance requirements.
+
+· Reliability Testing: Evaluating system durability and robustness under real-world conditions to ensure long-term reliability.
+
+· Safety Assessment: Verifying the system's compliance with safety standards and regulations.
+
+· Compatibility Testing: Checking system compatibility with other vehicle components and external systems.
+
+· User Experience Validation: Assessing the system's usability and user-friendliness.","eBob_GenAi_chat","text",NULL,"Key Objectives of System Testing in Automotive:",NULL,"6d2af2ca-fa6b-497c-9795-86a1632403ce","2","3","eBob_GenAi_chat.pdf","0a9f4a70-ef5f-4dd4-8a8f-b27b93df59a2","None"
+"Types of System Tests in Automotive:
+· Hardware-in-the-Loop (HIL) Testing: Simulating real-world conditions to test electronic control units (ECUs) without physical prototypes.
+
+· Software-in-the-Loop (SIL) Testing: Testing software components independently without hardware interaction.
+
+· Model-in-the-Loop (MIL) Testing: Testing software models within a simulation environment.
+
+· Vehicle-in-the-Loop (VIL) Testing: Integrating a real vehicle with a simulation environment for testing.
+
+· Road Testing: Testing the vehicle in real-world driving conditions to assess performance and safety.","eBob_GenAi_chat","text",NULL,"Types of System Tests in Automotive:",NULL,"fa6e66b9-58c0-43e7-8636-03583eff7383","3","3","eBob_GenAi_chat.pdf","73ccbbd6-0227-44c6-a2d6-ddffe1f0c22e","None"
+"Challenges in Automotive System Testing:
+· Complex Systems: Modern vehicles have numerous interconnected systems, making testing challenging.
+
+· Real-World Conditions: Simulating real-world driving conditions accurately is difficult.
+
+· Time Constraints: Tight development timelines put pressure on testing efforts.
+
+· Cost: Extensive testing resources and infrastructure can be costly.","eBob_GenAi_chat","text",NULL,"Challenges in Automotive System Testing:",NULL,"c2e2ec9e-5ac4-4fc6-8490-a7126affba36","3","3","eBob_GenAi_chat.pdf","8b34b391-8b04-4c07-9aab-dfe79f1f6799","None"
+"Importance of System Testing:
+· Product Quality: Ensures the final product meets customer expectations and industry standards.
+
+· Risk Mitigation: Identifies and addresses potential issues before product launch.
+
+· Cost Reduction: Early detection of defects saves costs in the long run.
+
+· Customer Satisfaction: Delivers a reliable and safe product to customers.
+
+By conducting thorough system testing, automotive manufacturers can build high-quality, safe, and reliable vehicles that meet customer demands and regulatory requirements.","eBob_GenAi_chat","text",NULL,"Importance of System Testing:",NULL,"cedd2ff9-7c16-498c-87a0-0895ef2649e6","3","3","eBob_GenAi_chat.pdf","8e87385d-b186-4ea0-acbd-066617eef39d","None"
+"Test Case:
+A test case is a set of conditions or variables under which a system or component is tested to evaluate its response and determine if it fulfills the specified requirements. It's a documented procedure that outlines the steps, inputs, expected outputs, and actual outputs of a test.
+
+Components of a Test Case
+
+A typical test case includes the following elements:
+
+Test ID: A unique identifier for the test case.
+
+Test Case Title: A brief description of the test case.
+
+
+Pre-conditions: The conditions that must be met before executing the test case.
+
+Test Steps: A detailed sequence of actions to be performed.
+
+Test Data: Input values required for the test case.
+
+Expected Results: The anticipated outcome of the test case.
+
+Actual Results: The observed outcome of the test case.
+
+Pass/Fail: Indicates whether the test case passed or failed.
+
+Diagnostic Fault Check (DFC)
+
+Description: This function is used to debounce a fault check. With the parameters a current check result can be set (e.g. defect / okay) and several debouncing methods can be chosen (e.g. time debouncing, event debouncing) How it Works:
+
+On-Board Diagnostics (OBD) System: Modern vehicles are equipped with OBD systems that continuously monitor various vehicle components and systems.
+
+Fault Detection: When a component or system malfunctions, the OBD system stores a fault code.
+
+Check Engine Light: The illuminated ""Check Engine"" light indicates the presence of one or more fault codes.
+
+Diagnostic Tools: Mechanics use specialized diagnostic tools to read and interpret these fault codes.
+
+Troubleshooting: Based on the fault code, technicians can pinpoint the potential problem area.
+
+Repairs: Necessary repairs are made to restore the vehicle's functionality.
+
+Types of Fault Codes:
+
+Generic Codes: Standardized codes that apply to multiple vehicle makes and models.
+
+Manufacturer-Specific Codes: Codes unique to a particular vehicle manufacturer.
+
+Common Causes of Fault Codes:
+
+Engine-related issues: Misfires, oxygen sensor problems, fuel system malfunctions.
+
+
+Emission system problems: Catalytic converter issues, evaporative emissions system leaks. Transmission problems: Shift solenoids, torque converter issues. Sensor failures: Mass airflow sensor, temperature sensors, etc.
+
+Importance of DFC:
+
+Early Detection: Helps identify potential problems before they escalate. Safety: Addresses issues that could affect vehicle safety. Emissions Control: Ensures compliance with environmental regulations.
+
+Performance: Restores optimal vehicle performance","eBob_GenAi_chat","text",NULL,"Test Case:",NULL,"3fda9101-4b7e-4177-aa2f-8cf3f7c87e76","3","5","eBob_GenAi_chat.pdf","3a456e0b-d32a-4886-9426-cb8962f2f995","None"
